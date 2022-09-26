@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Moonbeam",
+    "chainId": 2500,
+    "gateway": "0xD9C3b5474f1ec7578E3549BAd3ce266bAa5c2D3c",
+    "gasReceiver": "0x5737A424F8e9A0dbA8701A4cDaB8E425F9031b33",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "tokens": {},
+    "rpc": "http://localhost:8500/0",
+    "tokenName": "DEV",
+    "tokenSymbol": "DEV"
+  },
+  {
+    "name": "Avalanche",
+    "chainId": 2501,
+    "gateway": "0x411fB36E488f22bBE872C345e652e45ff0EB319f",
+    "gasReceiver": "0xc17a3E5357146d7b9CC3fB025356f25dd450554F",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "tokens": {},
+    "rpc": "http://localhost:8500/1",
+    "tokenName": "Avax",
+    "tokenSymbol": "AVAX"
+  },
+  {
+    "name": "Ethereum",
+    "chainId": 2502,
+    "gateway": "0x043f57C16f6322E42F6D1deB46E0F53e6FaA3379",
+    "gasReceiver": "0x8Fd1a92a56e49C1b9FAda0015b9Ac51E4a52D181",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "tokens": {},
+    "rpc": "http://localhost:8500/2",
+    "tokenName": "Ether",
+    "tokenSymbol": "ETH"
+  },
+  {
+    "name": "Fantom",
+    "chainId": 2503,
+    "gateway": "0x5Cf511753D84Ff93fa305cbEECDD0a701C88b9b6",
+    "gasReceiver": "0xb6dd9131bb4952DC9B2558dbD1391646185Af819",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "tokens": {},
+    "rpc": "http://localhost:8500/3",
+    "tokenName": "Fantom",
+    "tokenSymbol": "FTM"
+  },
+  {
+    "name": "Polygon",
+    "chainId": 2504,
+    "gateway": "0x186038359000c32da660ecA49C3d494001A30Ffe",
+    "gasReceiver": "0xe90560ba227BA579eb4D883abe73E85a9123a615",
+    "constAddressDeployer": "0x69aeB7Dc4f2A86873Dae8D753DE89326Cf90a77a",
+    "tokens": {},
+    "rpc": "http://localhost:8500/4",
+    "tokenName": "Matic",
+    "tokenSymbol": "MATIC"
+  }
+]
