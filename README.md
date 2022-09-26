@@ -1,23 +1,12 @@
-# General Message Passing Tutorial
+# Bridge Circuitbreaker v0.1 proof of concept for Moonbeam Connected Contracts Hackathon
 
-## Instructions
+## Launch a local dev environment of Axelar Network
 
-```sh
-# copy .env
-cp .env.example .env
+`ts-node scripts/local-network.ts`
 
-# install dependencies
-yarn
-
-# 1st terminal: launch local cross-chain development
-yarn local-dev:start
-
-# compile contracts with hardhat
-yarn contracts:build
-
-# 2nd terminal: deploy contracts
-yarn contracts:deploy
-
-# start the ui
-yarn dev
+## Then run a simulation of a a hacked bridge scenario
 ```
+yarn
+yarn contracts:build
+ts-node scripts/deploy-crosschain.ts
+````
